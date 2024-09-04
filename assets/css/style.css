@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto Condensed", sans-serif;
 }
 
 .imagem{
@@ -10,7 +9,8 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-    margin: 0   ;
+    margin: 0;
+    padding-top: 10px;
 }
 
 img {
@@ -54,3 +54,13 @@ form input[type="submit"]:hover {
     background-color: rgb(82, 153, 82);
     color: white;
 }
+.maps{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+iframe{
+    width: 100%;
+    max-width: 500px;
+}
+
